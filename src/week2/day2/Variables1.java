@@ -14,11 +14,11 @@ public class Variables1 {
             after you can highlight again and uncomment using same keys
          */
 
-//        int age = 25; // creating a variable age(with type integer) with value 25
-//        System.out.println(age); // prints 25
-//
-//        age = 26; // also you can change the value of a variable
-//        System.out.println(age); //prints 26
+        int age = 25; // creating a variable age(with type integer) with value 25
+        System.out.println(age); // prints 25
+
+        age = 26; // also you can change the value of a variable
+        System.out.println(age); //prints 26
 
 
 //        int age; // you can create a variable but without a value (without initialization)
