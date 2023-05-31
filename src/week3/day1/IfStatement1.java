@@ -188,11 +188,11 @@ public class IfStatement1 {
 //        Scanner in = new Scanner(System.in);
 //
 //        System.out.print("enter the price: ");
-//        int price = in.nextInt(); //price = 10_000
+//        int price = in.nextInt(); //price = 1111
 //        double finalPrice;
 //
 //        if(price >= 10000){
-//            finalPrice = 10000 - (price * 20 / 100.0);
+//            finalPrice = price - (price * 20 / 100.0);
 //        }
 //        else
 //            if(price >= 5000){
