@@ -127,9 +127,9 @@ public class LoopFor {
 //            num = in.nextInt();
 //
 //            if(num % 2 == 0)
-//                countEvens++;
+//                countEvens++; //countEvens = 1
 //            else
-//                countOdds++;
+//                countOdds++;  //countOdds = 2
 //        }
 //
 //        System.out.println("odds: " + countOdds);
