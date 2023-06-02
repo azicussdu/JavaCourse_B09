@@ -184,6 +184,72 @@ public class LoopFor {
 //
 //        System.out.println("max is: " + maxNum);
 
+//        /*
+//        Find and print the amount of numbers which have at least
+//        one '9' digit inside. Check numbers between 100-999.
+//
+//        109, 119, 129, .... 189, 190, 191, 192, ... 209, 219...
+//         */
+//
+//        int count = 0;
+//        int d1, d2, d3;
+//
+//        for(int i=100; i<=999; i++){
+//            d1 = i / 100;        // 245 / 100 = 2
+//            d2 = i / 10 % 10;    // 245 / 10 % 10 = 24 % 10 = 4
+//            d3 = i % 10;         // 245 % 10 = 5
+//
+//            if(d1 == 9 || d2 == 9 || d3 == 9){
+//                count++;
+//            }
+//        }
+//
+//        System.out.println("The amount: " + count);
+
+        /*
+        Find and print the amount of numbers which start and end with same digit.
+        Check numbers between 100-999.
+
+        101, 111, 121, 131, .... 202, 222,
+         */
+
+//        int count = 0;
+//        int d1, d3;
+//
+//        for(int i=100; i<=999; i++){
+//            d1 = i / 100;        // 245 / 100 = 2
+//            d3 = i % 10;         // 245 % 10 = 5
+//
+//            if(d1 == d3){
+//                count++;
+//            }
+//        }
+//
+//        System.out.println("The amount: " + count);
+
+
+        /*
+        Find and print the amount of numbers where all digits are odd.
+        Check numbers between 100-999.
+
+        111, 113, 115, 117, 119, 131, 133, 135 ... 999
+         */
+
+//        int count = 0;
+//        int d1, d2, d3;
+//
+//        for(int i=100; i<=999; i++){
+//            d1 = i / 100;
+//            d2 = i / 10 % 10;
+//            d3 = i % 10;
+//
+//            if(d1 % 2 == 1 && d2 % 2 == 1 && d3 % 2 == 1){
+//                count++;
+//            }
+//        }
+//
+//        System.out.println("The amount: " + count);
+
     }
 }
 
