@@ -226,7 +226,6 @@ public class Arrays_2 {
 
         output: 3
          */
-
 //        Scanner in = new Scanner(System.in);
 //
 //        System.out.print("enter the N: ");
@@ -238,7 +237,7 @@ public class Arrays_2 {
 //            arr[i] = in.nextInt();
 //        }
 //
-//        int ind1, ind2;
+//        int ind1 = 0, ind2 = 0, sum = 0;
 //
 //        for(int i=0; i<arr.length; i++){
 //            if(arr[i] == 0){
@@ -246,12 +245,19 @@ public class Arrays_2 {
 //                break;
 //            }
 //        }
-
-        //TODO finish it as a hometask
-
-
-
-
+//
+//        for(int i=arr.length-1; i>=0; i--){
+//            if(arr[i] == 0){
+//                ind2 = i;
+//                break;
+//            }
+//        }
+//
+//        for(int i=ind1+1; i < ind2; i++){
+//            sum = sum + arr[i];
+//        }
+//
+//        System.out.println("sum is: " + sum);
 
     }
 }
