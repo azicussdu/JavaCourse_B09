@@ -122,8 +122,22 @@ public class NestedLoops_2 {
             *
          */
 
-        // Solution is hidden, so please do it by your own :)
-        //After project day I will show you the code
+//        Scanner in = new Scanner(System.in);
+//        System.out.print("enter N: ");
+//        int n = in.nextInt();
+//        int stars = 2*n-1, spaces = 0;
+//
+//        for(int i=1; i<=n; i++){
+//            for(int j=1; j<=spaces; j++){
+//                System.out.print("   ");
+//            }
+//            for(int k=1; k<=stars; k++){
+//                System.out.print(" * ");
+//            }
+//            spaces++;
+//            stars = stars - 2;
+//            System.out.println();
+//        }
 
     }
 }
