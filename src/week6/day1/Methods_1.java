@@ -57,12 +57,13 @@ public class Methods_1 {
 
     public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
-        String str = in.next();
-
-        boolean result = isNumeric(str);
-        System.out.println(result);
-
+//        Scanner in = new Scanner(System.in);
+//        String str = in.next();
+//
+//        if(isNumeric(str) == true){
+//            int num = Integer.parseInt(str);
+//            System.out.println(num + num);
+//        }
 
 //        Scanner in = new Scanner(System.in);
 //        int num = in.nextInt();
