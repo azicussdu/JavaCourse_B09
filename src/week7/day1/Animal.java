@@ -9,6 +9,7 @@ public class Animal {
     String color; //white, black, ...
     boolean isSleeping;
 
+
     //behaviours here
     public void eat(String food){ //grass or meat
         if(!isSleeping){
