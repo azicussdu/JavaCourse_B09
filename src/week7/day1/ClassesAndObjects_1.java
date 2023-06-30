@@ -3,18 +3,22 @@ package week7.day1;
 public class ClassesAndObjects_1 {
     public static void main(String[] args) {
         //creating an object of class Animal
+
         Animal a1 = new Animal();
-        a1.type = "dog";
-        a1.isHerbivorous = true;
-        a1.color = "black";
-        a1.age = 12;
-        a1.size = "medium";
+        System.out.println();
 
-        a1.sleep();
-        a1.wakeUp();
 
-        a1.eat("meat");
-        a1.speak();
+//        a1.type = "dog";
+//        a1.isHerbivorous = true;
+//        a1.color = "black";
+//        a1.age = 12;
+//        a1.size = "medium";
+//
+//        a1.sleep();
+//        a1.wakeUp();
+//
+//        a1.eat("meat");
+//        a1.speak();
 
 //        Animal a2 = new Animal();
 //        a2.type = "tiger";
