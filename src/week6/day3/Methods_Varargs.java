@@ -22,7 +22,5 @@ public class Methods_Varargs {
 //        int result = findSum(1, 2, 3, 6);
 //        System.out.println("result: " + result);
 
-
-
     }
 }

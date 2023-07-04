@@ -101,8 +101,9 @@ public class Methods_1 {
 //        int x = s.length();
 //        System.out.println(x);
 
-//        System.out.println("before calling a method");
-//        findSumFromOneToFive(); //calling a method (using a method)
-//        System.out.println("after calling a method");
+        System.out.println("before calling a method");
+
+        findSumFromOneToFive(); //calling a method (using a method)
+        System.out.println("after calling a method");
     }
 }
