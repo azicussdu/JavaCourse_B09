@@ -6,6 +6,31 @@ public class Laptop {
     private double weight;
     private int ram;
 
+    public Laptop(String brand, String operatingSystem, double weight, int ram){
+        setBrand(brand);
+        setOperatingSystem(operatingSystem);
+        setWeight(weight);
+        setRam(ram);
+    }
+
+    public Laptop(){}
+
+    public void setBrand(String brand){
+        this.brand = brand;
+    }
+
+    public String getBrand(){
+        return brand;
+    }
+
+    public void setOperatingSystem(String operatingSystem){
+        this.operatingSystem = operatingSystem;
+    }
+
+    public String getOperatingSystem(){
+        return operatingSystem;
+    }
+
     public void setWeight(double weight){
         if(weight < 0)
             this.weight = weight * -1;
@@ -13,11 +38,19 @@ public class Laptop {
             this.weight = weight;
     }
 
+    public double getWeight(){
+        return weight;
+    }
+
     public void setRam(int ram){
         if(ram < 0)
             this.ram = ram * -1;
         else
             this.ram = ram;
+    }
+
+    public int getRam(){
+        return ram;
     }
 
     public void install(String os){
@@ -52,6 +85,6 @@ public class Laptop {
     }
 
     public String toString(){
-        return "weight: " + weight + ", ram: " + ram;
+        return "brand: " + brand + ", os: " + operatingSystem + ", weight: " + weight + ", ram: " + ram;
     }
 }
