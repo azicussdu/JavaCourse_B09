@@ -3,7 +3,7 @@ package week8.project;
 public class BankAccount {
     private String username;
     private String pinCode;
-    private double moneyBalance = 0;
+    private double moneyBalance;
 
     public BankAccount(String clientName, String pinCode, double moneyBalance){
         setUsername(clientName);

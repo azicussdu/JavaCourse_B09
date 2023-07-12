@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-
         BankAccount ba1 = new BankAccount("alex", "2222", 2000);
         BankAccount ba2 = new BankAccount("john", "3333", 3000);
         BankAccount ba3 = new BankAccount("mary", "4444", 5000);
