@@ -1,9 +1,6 @@
-package week10.day1.ex1;
+package week10.day2.ex1;
 
-import week10.day1.ex2.Animal;
-import week10.day1.ex2.Monkey;
-
-public class Rectangle extends Shape {
+public class Rectangle implements IShape {
     private double width;
     private double length;
 
