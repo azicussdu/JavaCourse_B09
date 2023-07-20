@@ -51,10 +51,10 @@ public class IPhone {
         //I will go through all apps
         //If the app is a messenger -> then send message to phoneNumber
 
-        for(App app : apps){
-            if(app instanceof IMessenger){
+        for(App apl : apps){
+            if(apl instanceof IMessenger){
                 //if I am here then the app is an object of Whatsapp or Telegram or Wechat
-                ((IMessenger)app).sendMessage(phoneNumber, message);
+                ((IMessenger)apl).sendMessage(phoneNumber, message);
             }
         }
     }

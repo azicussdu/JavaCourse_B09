@@ -19,9 +19,4 @@ public class Telegram extends App implements IMessenger{
         System.out.println("to phone number: " + phoneNumber);
         System.out.println("message: " + message);
     }
-
-    @Override
-    public void receiveMessage() {
-        System.out.println("received a message to telegram");
-    }
 }
