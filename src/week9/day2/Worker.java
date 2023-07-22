@@ -21,4 +21,10 @@ public class Worker {
     public int getSalary() {
         return salary;
     }
+
+    @Override
+    public String toString() {
+        return "name='" + name + '\'' +
+                ", salary=" + salary;
+    }
 }

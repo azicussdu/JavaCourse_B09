@@ -1,6 +1,8 @@
 package week9.day2;
 
-public class FreelanceDeveloper extends Developer {
+import week9.day2.Developer;
+
+public class FreelanceDeveloper extends Developer{
     private int monthWorkHours;
 
     public FreelanceDeveloper(String name, int salary, String progLanguage, int yearsOfExperience, int monthWorkHours) {

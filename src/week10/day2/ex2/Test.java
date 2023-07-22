@@ -19,6 +19,10 @@ public class Test {
             }
         }
 
+//        ArrayList<IMessenger> list2 = new ArrayList<>();
+//        list2.add(new Whatsapp(20));
+//        list2.add(new Telegram(20));
+
 
 
 

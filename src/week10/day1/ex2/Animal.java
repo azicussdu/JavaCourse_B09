@@ -1,6 +1,6 @@
 package week10.day1.ex2;
 
-public abstract class Animal {
+public abstract class Animal { //abstract | concrete
     private String color; //to be inherited by children classes
 
     public Animal(String color){ //to be used by children classes
