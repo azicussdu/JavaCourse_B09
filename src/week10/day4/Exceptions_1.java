@@ -5,18 +5,18 @@ import java.util.Scanner;
 
 public class Exceptions_1 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String str = in.next();
-
-        int num = 0;
-        try{
-             num = Integer.parseInt(str);
-        }
-        catch (NumberFormatException e){
-            System.out.println("enter number value only");
-        }
-
-        System.out.println("result = " + (num + 10));
+//        Scanner in = new Scanner(System.in);
+//        String str = in.next();
+//
+//        int num = 0;
+//        try{
+//             num = Integer.parseInt(str);
+//        }
+//        catch (NumberFormatException e){
+//            System.out.println("enter number value only");
+//        }
+//
+//        System.out.println("result = " + (num + 10));
 
 //        Scanner in = new Scanner(System.in);
 //

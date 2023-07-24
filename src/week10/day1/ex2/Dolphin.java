@@ -18,5 +18,7 @@ public class Dolphin extends Animal{
     public void eat(Food food) {
         if(food == Food.MEAT)
             System.out.println("Okay I am eating");
+        else
+            System.out.println("Sorry, I don't eat " + food);
     }
 }
