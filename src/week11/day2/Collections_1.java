@@ -47,6 +47,7 @@ public class Collections_1 {
         }
 
 
+
         //List, Set
 
 //        List<String> list = new ArrayList<>();
