@@ -5,8 +5,6 @@ import java.util.*;
 public class Collections_2 {
     public static void main(String[] args) {
 
-
-
 //        HashSet<Integer> set = new HashSet<>();
 //        for(int i=1; i<=20000000; i++){
 //            set.add(i);
@@ -118,6 +116,10 @@ public class Collections_2 {
 //        System.out.println(list.contains("Two"));
 //        list.lastIndexOf("One");
 //        System.out.println(list);
+
+//        ----------------------------
+
+        
 
     }
 }
