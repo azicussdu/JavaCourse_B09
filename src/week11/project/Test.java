@@ -4,7 +4,6 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-
        /*
        User enters 10 integers.
        Show all numbers in sorted order(descending order).
